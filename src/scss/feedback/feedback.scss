@@ -1,0 +1,29 @@
+.feedback {
+    margin: 0 16px;
+}
+
+.feedback__input {
+    display: block;
+    width: 90%;
+    height: 13px;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.2px;
+    color: #B5B6BC;
+    background: #FFFFFF;
+    border: 1px solid #EAEAEA;
+    border-radius: 8px;
+    padding: 12px 16px;
+    margin-bottom: 16px;
+}
+
+.feedback__input--textarea {
+    height: auto;
+    resize: none;
+}
+
+.feedback__button {
+    width: 102%;
+    display: flex;
+    justify-content: flex-end;
+}

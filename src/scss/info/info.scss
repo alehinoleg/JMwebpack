@@ -1,0 +1,26 @@
+.info {
+    &__mail {
+        color: #1B1C21;
+        margin: 16px 0 16px 16px;
+        display: block;
+    }
+
+    &__telephone {
+        display: block;
+        font-family: "TTLakes-Bold", Arial, sans-serif;
+        font-size: 24px;
+        margin: 0 0 40px 16px;
+        color: black;
+    }
+
+    &__lang {
+        margin-left: 16px;
+    }
+
+    &__lang button {
+        border: none;
+        background: none;
+        padding: 0;
+        padding-left: 2px;
+    }
+}

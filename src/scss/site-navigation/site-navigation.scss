@@ -1,0 +1,126 @@
+.site-navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10px;
+    background-color: white;
+}
+
+.site-navigation {
+    &__logo{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 180px;
+    }
+
+    &__logo::after {
+        content: "";
+        width: 2px;
+        height: 32px;
+        background: #EAEAEA;
+        border-radius: 1px;
+        display: inline-block;
+    }
+
+    &__service {
+        display: flex;
+        justify-content: space-between;
+        width: 100px;
+    }
+
+    &__signature {
+        display: none;
+    }
+
+    &__indent {
+        display: none;
+    }
+
+    &__indent::after {
+        content: "";
+        width: 2px;
+        height: 32px;
+        background: #EAEAEA;
+        border-radius: 1px;
+        display: inline-block;
+    }
+    
+}
+
+@media (min-width: 768px) {
+    .site-navigation { 
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+    
+    .site-navigation {
+        &__burger {
+            display: flex;
+            align-items: center;
+        }
+
+        &__burger::after {
+            content: "";
+            width: 2px;
+            height: 32px;
+            background: #EAEAEA;
+            border-radius: 1px;
+            display: inline-block;
+            margin-left: 20px;
+        }
+
+        &__logo::after {
+            display: none;
+        }
+
+        &__indent {
+            display: flex;
+            margin-left: 300px;
+        }
+    }
+}
+
+@media (min-width: 1440px) {
+    .site-navigation {
+        width: 1120px;
+        margin: 0 auto;
+        justify-content: flex-end;
+        background-color: #F8F8F8;
+
+    }
+
+    .site-navigation {
+        &__service {
+            width: 325px;
+            margin-right: 60px;
+        }
+
+        &__signature {
+            display: block;
+            color: black;
+            font-size: 16px;
+            line-height: 24px;
+            letter-spacing: -0.2px;
+        }
+        
+        &__repear {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            width: 165px;
+        }  
+
+        &__li {
+            margin-right: 15px;
+        }
+
+        &__logo {
+            display: none;
+        }
+
+        &__indent {
+            display: none;
+        }
+    }  
+}

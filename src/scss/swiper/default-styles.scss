@@ -1,0 +1,165 @@
+
+a {
+	text-decoration: none;
+}
+
+ul {
+	list-style-type: none;
+}
+
+img {
+	max-width: 100%;
+	object-fit: cover;
+}
+
+button {
+	border: none;
+	background-color: transparent;
+	cursor: pointer;
+	padding: 0;
+	font-size: 12px;
+}
+
+.card {
+	background-color: white;
+    border: 1px solid #EAEAEA;
+    border-radius: 6px;
+    height: 70px;
+    padding: 0 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 16px;
+}
+
+.card--repairs {
+    width: 240px;
+    height: 160px;
+    flex-shrink: 0;
+    margin-right: 2.5%;
+	margin-bottom: 2.5%;
+	display: flex;
+	padding: 16px;
+	font-size: 16px;
+	line-height: 24px;
+	letter-spacing: -0.2px;
+	color: #1B1C21;
+}
+
+.card--prices {
+    width: 240px;
+    height: 160px;
+    flex-shrink: 0;
+    margin-right: 2.5%;
+	margin-bottom: 2.5%;
+	display: flex;
+	padding: 16px;
+	font-size: 16px;
+	line-height: 24px;
+	letter-spacing: -0.2px;
+    color: #1B1C21;
+}
+
+.card--prices__link {
+	align-self: flex-end;
+	height: 30px;
+}
+
+@media (min-width: 768px) {
+    .card--prices {
+		width: 94%;
+		margin: 0px;
+		padding: 0px 16px;
+		height: 64px;
+	}  
+
+	.card--repairs {
+        width: 26%;
+	}
+	
+	.card-table {
+		display: flex;
+		width: 80%;
+	}
+
+	.card-table__title {
+		display: none;
+	}
+
+	.card-table__tbody {
+		display: flex;
+		width: 100%;
+		justify-content: space-between;	
+	}
+
+	.card--prices__link {
+		align-self: center;
+	}
+
+	.card-table__tr--grow {
+		flex-grow: 1;
+	}
+
+	.card-table__tr:last-child {
+		margin-left: 80px;
+	}
+
+	.slider-container--prices {
+		height: 100%;
+	}
+}
+
+@media (min-width: 1440px) {
+	.card--repairs {
+        width: 210px;
+	}
+	
+	.card--prices {
+		width: 97%;
+	}
+}
+
+.card--repairs__title {
+	align-self: flex-start;
+}
+
+.card--repairs__link {
+	align-self: flex-end;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+	background-color: #fff;
+	width: 40px;
+	height: 40px;
+	border-radius: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 20px 20px;
+}
+
+.swiper-button-prev::after,
+.swiper-button-next::after {
+	display: none;
+}
+
+.swiper-button-prev {
+	background-image: url("../../img/services/back.svg");
+}
+
+.swiper-button-next {
+	background-image: url("../../img/services/right.svg");
+}
+
+.slider-top {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+	margin-bottom: 30px;
+}
+
+.slider-buttons {
+	display: flex;
+	align-items: center;
+}

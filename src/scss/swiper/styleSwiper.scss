@@ -1,0 +1,170 @@
+.tittle__brand {
+    color: #7E7E82;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.2px;
+    font-weight: lighter;
+    text-transform: uppercase;
+    background-image: linear-gradient(to right, #F2F2F2, white);
+    padding: 16px;
+    border-top: 2px solid #D9FFF5;
+}
+
+.swiper-pagination-bullet {
+    background-color: #B5B6BC;
+}
+
+.swiper-container {
+    padding-bottom: 30px;
+}
+
+.slider-container {
+    overflow: hidden;
+    width: 100%;
+    background-color: #F2F2F2;
+    padding-top: 24px;
+}
+
+.swiper-wrapper {
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 206px;
+    height: 72px;
+    flex-shrink: 0;
+    margin-right: 2.5%;
+    margin-bottom: 2.5%;
+}
+
+.bottomButton {
+    border: none;
+    background-color: #F2F2F2;
+    background-image: url(../../img/services/bottomicon.svg);
+    background-repeat: no-repeat;
+    width: 125px;
+    background-position: 5% 50%
+}
+
+.bottomButton--none {
+    display: none;
+}
+
+.topButton {
+    display: none;
+    border: none;
+    background-color: #F2F2F2;
+    background-image: url(../../img/services/topicon.svg);
+    background-repeat: no-repeat;
+    width: 125px;
+    background-position: 5% 50%
+}
+
+.topButton--block {
+    display: block;
+}
+
+.brands--height {
+    height: 100%;
+}
+
+@media (max-width: 768px) {
+    .card {
+        margin: 0;
+    }
+
+    .swiper-wrapper {
+        flex-wrap: nowrap;
+        margin-bottom: 30px;
+    }
+}
+
+@media (min-width: 768px) {
+    .tittle__brand {
+        padding-left: 24px;
+        padding-right: 24px;
+        margin: 0;
+    }
+    
+    .slider-container {
+        height: 165px;
+        padding-left: 24px;
+        padding-right: 25px;
+        width: auto;
+    }
+
+    .slider-container--height {
+        height: 100%;
+    }
+
+    .slider-container--repairs {
+        height: 215px;
+    }
+    .card {
+        width: 26%;
+    }
+    .card:nth-child(3n) {
+        margin-right: 0;
+    }
+}
+
+
+@media (min-width: 1440px) {
+    .tittle__brand {
+        width: 1056px;
+        margin: 0 auto;
+        padding-left: 32px;
+        padding-right: 32px;
+    }
+
+    .card {
+        width: 210px;
+    }
+
+    .card--repairs {
+        width: 220px;
+    }
+
+    .card:nth-child(3n) {
+        margin-right: 2.5%;
+    }
+
+    .card:nth-child(4n) {
+        margin-right: 0;
+    }
+
+    .slider-container {
+        width: 1056px;
+        margin: 0 auto;
+        height: 165px;
+        padding-left: 32px;
+        padding-right: 32px;
+    }
+
+    .slider-container--repairs {
+        height: 100%;
+    }
+
+    .slider-container--height {
+        height: 100%;
+    }
+}
+
+.card-table {
+    width: 126px;
+}
+
+.card-table__tr {
+    display: flex;
+    flex-direction: column;
+}
+
+.card-table__title {
+    font-size: 14px;
+    line-height: 16px;
+    color: #7E7E82;
+    mix-blend-mode: normal;
+    opacity: 0.72;  
+}
+
+

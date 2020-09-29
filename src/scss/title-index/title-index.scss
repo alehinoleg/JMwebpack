@@ -1,0 +1,35 @@
+.titlesite-index {
+    font-family: "TTLakes-Bold", Arial, sans-serif; 
+    font-size: 28px;
+    line-height: 40px;
+    letter-spacing: -0.6px;
+    color: #1B1C21;
+    border-top: 1px solid #D9FFF5;
+    margin: 0;
+    padding: 24px 24px 24px 0;
+    display: flex;
+}
+
+.titlesite-index::before {
+    content: "";
+    width: 4px;
+    height: 40px;
+    background-color: #41F6D7;;
+    border-radius: 1px;
+    display: inline-block;
+    margin-right: 32px;
+}
+
+@media (min-width: 768px) { 
+    .titlesite-index::before {
+        margin-right: 24px;
+    } 
+}
+
+@media (min-width: 1440px) {
+    .titlesite-index {
+        width: 1095px;
+        margin: 0 auto;
+        margin-top: -85px;
+    }
+}

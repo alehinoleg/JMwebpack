@@ -1,0 +1,42 @@
+.menu {
+    display: flex;
+    overflow: auto;
+    white-space: nowrap;
+}
+
+.menu {
+    &__link {
+        padding: 8px 17px;
+        color: #7E7E82;
+        border: 2px solid #F8F8F8;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: -0.2px;
+    }
+}
+
+.menu {
+    &__link:hover {
+        border: 2px solid #B8FFEC;
+        background-color: white;
+        border-radius: 6px;
+    }
+}
+
+@media (min-width: 768px) {
+    .menu {
+        margin-left: 24px;
+    }
+}
+
+@media (min-width: 1440px) {
+    .menu {
+        width: 1056px;
+        margin: 0 auto;
+        padding-left: 32px;
+        padding-right: 32px;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        overflow: visible;
+    }
+}

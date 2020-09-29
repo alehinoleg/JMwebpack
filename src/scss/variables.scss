@@ -1,0 +1,19 @@
+@font-face {
+	font-family: 'TTLakes-Regular';
+	src: url('../fonts/TTLakes-Regular.eot');
+	src: local('☺'), url('../fonts/TTLakes-Regular.woff') format('woff'), url('../fonts/TTLakes-Regular.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'TTLakes-Bold';
+	src: url('../fonts//TTLakes-Bold.eot');
+	src: local('☺'), url('../fonts//TTLakes-Bold.woff') format('woff'), url('../fonts/TTLakes-Bold.ttf') format('truetype');
+	font-weight: 700;
+	font-style: normal;
+}
+
+$font-Regular: "TTLakes-Regular", Arial, sans-serif;
+$font-Bold: "TTLakes-Bold", Arial, sans-serif;
+$color: #41F6D7;

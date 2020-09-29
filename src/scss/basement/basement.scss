@@ -1,0 +1,43 @@
+.basement {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 16px;
+    background-color: #F2F2F2
+}
+
+.basement__info {
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    color: #7E7E82;
+    mix-blend-mode: normal;
+    opacity: 0.72;
+    text-align: center;
+}
+
+@media (min-width: 768px) {
+    .basement {
+        flex-direction: row;
+        justify-content: space-between;
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+
+    .basement__info:first-child {
+        text-align: left;
+    }
+
+    .basement__info:last-child {
+        text-align: right;
+    }
+}
+
+@media (min-width: 1440px) {
+    .basement {
+        width: 1056px;
+        margin: 0 auto;
+        padding-left: 32px;
+        padding-right: 32px;
+    }
+}
